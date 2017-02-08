@@ -7,4 +7,4 @@
 
 ##Структурные (Structural)
 
-* [Adapter](structural/adapter/readme.md) - использование внешней реализации с приведением к нужному интерфейсу
+* [Adapter](/structural/adapter/readme.md) - использование внешней реализации с приведением к нужному интерфейсу
