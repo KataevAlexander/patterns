@@ -1,4 +1,4 @@
-module AdapterClass {
+module AdapterObjects {
 
 	interface IPoint {
 		x:number
@@ -56,7 +56,7 @@ module AdapterClass {
 
 	}
 
-	//Интерфейм можно не определять, объект library имплементирован
+	//Интерфейс можно не определять, объект library имплементирован
 	let widget = new Application.Widget()
 	let start = {x: 100, y: 100}
 	let end = {x: 200, y: 200}
