@@ -1,0 +1,26 @@
+@startuml
+
+enum Environment {
+    DESKTOP
+    MOBILE
+}
+
+class Client {
+}
+
+class ImageWidget {
+    + static create(env:Environment)
+}
+
+class DesktopImageWidget extends ImageWidget {
+}
+
+class MobileImageWidget extends ImageWidget {
+}
+
+Client -> ImageWidget:create(Environment.DESKTOP)
+
+ImageWidget --> MobileImageWidget:constructor()
+ImageWidget --> DesktopImageWidget:constructor()
+
+@enduml
