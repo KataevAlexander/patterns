@@ -1,5 +1,7 @@
 # Abstract Factory, Factory, Kit - Абстрактная фабрика
 
+![](uml.svg)
+
 [Видео](https://youtu.be/dYNvK04q77w)
 
 ## Проблема
