@@ -21,7 +21,7 @@
 
 ## Диаграмма
 
-![](uml.png)
+![Abstract Factory](uml.png)
 
 ## Ссылки
 * https://youtu.be/dYNvK04q77w
