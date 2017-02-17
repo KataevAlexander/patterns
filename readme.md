@@ -9,11 +9,11 @@
 
 ##Порождающие (Creational)
 
-* Abstract Factory, Factory
+* [Abstract Factory, Factory](/creational/abstractfactory)
 * Singleton
 * Prototype
 * Builder
-* Factory Method, Virtual Constructor
+* [Factory Method, Virtual Constructor](/creational/factorymethod)
 
 ##Структурные (Structural)
 
