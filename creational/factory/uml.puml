@@ -1,0 +1,44 @@
+@startuml
+
+class Client {
+    factory:IFactory
+}
+
+interface IFactory {
+    createText(x:number, y:number, text:string):ITextWidget
+    createImage(x:number, y:number, url:string):IImageWidget
+}
+
+interface ITextWidget {
+}
+
+interface IImageWidget {
+}
+
+class DesktopFactory implements IFactory {
+}
+
+class MobileFactory implements IFactory {
+}
+
+class DesktopTextWidget implements ITextWidget {
+}
+
+class DesktopImageWidget implements IImageWidget {
+}
+
+class MobileTextWidget implements ITextWidget {
+}
+
+class MobileImageWidget implements IImageWidget {
+}
+
+Client -> IFactory
+
+DesktopFactory --> DesktopTextWidget
+DesktopFactory --> DesktopImageWidget
+
+MobileFactory --> MobileTextWidget
+MobileFactory --> MobileImageWidget
+
+@enduml

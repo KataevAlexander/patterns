@@ -21,3 +21,16 @@ var Application = (function () {
 })()
 
 var app = Application.instance()
+
+
+interface Test {
+	static create()
+}
+
+class TestImpl implements Test {
+
+	static create() {
+
+	}
+
+}

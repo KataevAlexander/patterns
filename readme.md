@@ -9,6 +9,12 @@
 
 ##Порождающие (Creational)
 
+* Abstract Factory, Factory
+* Singleton
+* Prototype
+* Builder
+* Factory Method, Virtual Constructor
+
 ##Структурные (Structural)
 
 * [Adapter](/structural/adapter) - совместная работа классов с несовместимым интефейсом
