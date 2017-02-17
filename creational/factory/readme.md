@@ -24,4 +24,4 @@
 ![Abstract Factory](uml.png)
 
 ## Ссылки
-* https://youtu.be/dYNvK04q77w
+* <a href="https://youtu.be/dYNvK04q77w" target="_blank">https://youtu.be/dYNvK04q77w</a>
