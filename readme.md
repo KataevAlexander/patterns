@@ -5,15 +5,13 @@
 
 > Знание нескольких принципов освобождает от знания множества фактов
 
-> Каждый класс отвечает только за одно дело (single probability)
-
 ##Порождающие (Creational)
 
 * [Abstract Factory, Factory](/creational/abstractfactory)
+* [Factory Method, Virtual Constructor](/creational/factorymethod)
 * Singleton
 * Prototype
 * Builder
-* [Factory Method, Virtual Constructor](/creational/factorymethod)
 
 ##Структурные (Structural)
 
