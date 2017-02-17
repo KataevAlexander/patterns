@@ -1,6 +1,6 @@
 # Abstract Factory, Factory, Kit - Абстрактная фабрика
 
-![](uml.svg)
+![](/uml.svg)
 
 [Видео](https://youtu.be/dYNvK04q77w)
 
