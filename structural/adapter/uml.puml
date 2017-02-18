@@ -1,0 +1,42 @@
+@startuml
+
+interface ILibrary {
+    + doSome()
+    + doOther()
+}
+
+class Client {
+    + library:ILibrary
+}
+
+class ExternalDesktopLibrary {
+    + methodA()
+    + methodB()
+}
+
+class ExternalMobileLibrary {
+    + methodC()
+    + methodD()
+}
+
+abstract class Library implements ILibrary {
+    + abstract doSome()
+    + abstract doOther()
+}
+
+class DesktopLibraryAdapter extends Library {
+    + doSome()
+    + doOther()
+}
+
+class MobileLibraryAdapter extends Library {
+    + doSome()
+    + doOther()
+}
+
+MobileLibraryAdapter --> ExternalMobileLibrary
+DesktopLibraryAdapter --> ExternalDesktopLibrary
+
+Client -> ILibrary
+
+@enduml
