@@ -1,0 +1,16 @@
+@startuml
+
+interface IList
+interface IIterator
+
+abstract class ArrayList implements IList
+abstract class Iterator implements IIterator
+
+class NextIterator extends Iterator
+class PrevIterator extends Iterator
+
+Client -> IIterator
+
+IIterator -> IList
+
+@enduml

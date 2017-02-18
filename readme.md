@@ -24,3 +24,15 @@
 * Flyweight
 
 ##Behavioral (Поведения)
+
+* [Iterator, Cursor](/behavioral/iterator)
+* [Action, Command, Transaction](/behavioral/action)
+* Interpreter
+* Observer, Publish/Subscribe, Delegation Event Model
+* Visitor
+* Mediator
+* State
+* Strategy
+* Memento
+* Chain of Responsibility
+* Template Method
