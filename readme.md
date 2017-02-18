@@ -5,7 +5,7 @@
 > — Да мы уже умеем писать программы!  
 > — Максимум, что вы умеет писать — это алгоритмы, но не программы.
 
-##Порождающие (Creational)
+##Creational (Порождающие)
 
 * [Abstract Factory, Factory](/creational/abstractfactory)
 * [Factory Method, Virtual Constructor](/creational/factorymethod)
@@ -13,7 +13,7 @@
 * Prototype
 * Builder
 
-##Структурные (Structural)
+##Structural (Структурные)
 
 * [Adapter](/structural/adapter)
 * Decorator, Wrapper
@@ -23,4 +23,4 @@
 * Facade
 * Flyweight
 
-##Поведения (Behavioral)
+##Behavioral (Поведения)
