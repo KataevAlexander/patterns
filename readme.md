@@ -18,8 +18,8 @@
 * [Adapter](/structural/adapter)
 * [Proxy, Surrogate](/structural/proxy)
 * [Decorator, Wrapper](/structural/decorator)
+* [Bridge, Handle, Body](/structural/bridge)
 * Composite
-* Bridge, Handle, Body
 * Facade
 * Flyweight
 

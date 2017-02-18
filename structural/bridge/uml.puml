@@ -1,0 +1,19 @@
+@startuml
+
+interface IReport
+interface IPrintReport
+
+abstract class Report implements IReport
+abstract class PrintReport implements IPrintReport
+
+class WeeklyReport extends Report
+class MonthlyReport extends Report
+
+class PrintHeader extends PrintReport
+class PrintFooter extends PrintReport
+
+Report o-> PrintReport
+
+Client -> IReport
+
+@enduml
