@@ -1,0 +1,26 @@
+@startuml
+
+interface IListener
+interface IObservable {
+    + setState()
+    + getState()
+
+    + addListener()
+    + removeListener()
+}
+
+abstract class Observable implements IObservable {
+    - state
+    - listeners:IListener[]
+}
+
+class Listener implements IListener
+
+class LayerObservable extends Observable
+class WidgetObservable extends Observable
+
+IObservable o- IListener
+
+note left of Observable: listeners.forEach
+
+@enduml

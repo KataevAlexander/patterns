@@ -27,8 +27,8 @@
 
 * [Iterator, Cursor](/behavioral/iterator)
 * [Action, Command, Transaction](/behavioral/action)
+* [Observer, Publish/Subscribe, Delegation Event Model](/behavioral/observer)
 * Interpreter
-* Observer, Publish/Subscribe, Delegation Event Model
 * Visitor
 * Mediator
 * State
