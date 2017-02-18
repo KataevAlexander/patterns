@@ -1,0 +1,24 @@
+@startuml
+
+interface IPage {
+    generate()
+}
+
+class Client {
+    page:IPage
+}
+
+class Decorator implements IPage
+
+class Page implements IPage
+
+class LetterPage extends Decorator
+class NumberPage extends Decorator
+
+Client -> IPage
+
+Decorator o-- IPage
+
+note top of Client: new LetterPage(new NumberPage(new Page()))
+
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+
+interface IServer
+
+class Client {
+    - server:IServer
+}
+
+class Server implements IServer
+class ServerProxy implements IServer
+
+Client -> IServer
+Client ..> ServerProxy
+ServerProxy o-- Server
+
+@enduml

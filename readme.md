@@ -16,8 +16,8 @@
 ##Structural (Структурные)
 
 * [Adapter](/structural/adapter)
-* Decorator, Wrapper
-* Proxy, Surrogate
+* [Proxy, Surrogate](/structural/proxy)
+* [Decorator, Wrapper](/structural/decorator)
 * Composite
 * Bridge, Handle, Body
 * Facade
