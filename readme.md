@@ -15,12 +15,12 @@
 
 ##Структурные (Structural)
 
-* [Adapter](/structural/adapter) - совместная работа классов с несовместимым интефейсом
-* Bridge - ???
-* Composite - ???
-* Decorator - ???
-* Facade - ???
-* Flyweight (Приспособленец) - ???
-* Proxy (Surrogate, Заместитель) - ???
+* [Adapter](/structural/adapter)
+* Decorator, Wrapper
+* Proxy, Surrogate
+* Composite
+* Bridge, Handle, Body
+* Facade
+* Flyweight
 
 ##Поведения (Behavioral)

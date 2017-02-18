@@ -1,10 +1,10 @@
 @startuml
 
 class Client {
-    factory:IFactory
+    factory:IAbstractFactory
 }
 
-interface IFactory {
+interface IAbstractFactory {
     createText(x:number, y:number, text:string):ITextWidget
     createImage(x:number, y:number, url:string):IImageWidget
 }
@@ -15,10 +15,13 @@ interface ITextWidget {
 interface IImageWidget {
 }
 
-class DesktopFactory implements IFactory {
+abstract class AbstractFactory implements IAbstractFactory {
 }
 
-class MobileFactory implements IFactory {
+class DesktopFactory extends AbstractFactory {
+}
+
+class MobileFactory extends AbstractFactory {
 }
 
 class DesktopTextWidget implements ITextWidget {
@@ -33,7 +36,7 @@ class MobileTextWidget implements ITextWidget {
 class MobileImageWidget implements IImageWidget {
 }
 
-Client -> IFactory
+Client -> IAbstractFactory
 
 DesktopFactory --> DesktopTextWidget
 DesktopFactory --> DesktopImageWidget

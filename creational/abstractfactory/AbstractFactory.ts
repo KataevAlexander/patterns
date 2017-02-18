@@ -1,6 +1,6 @@
 module AbstractFactory {
 
-	interface IFactory {
+	interface IAbstractFactory {
 		createText(x:number, y:number, text:string):ITextWidget
 		createImage(x:number, y:number, url:string):IImageWidget
 	}
@@ -11,7 +11,12 @@ module AbstractFactory {
 	interface IImageWidget {
 	}
 
-	class DesktopFactory implements IFactory {
+	abstract class AbstractFactory implements IAbstractFactory {
+		abstract createText(x:number, y:number, text:string)
+		abstract createImage(x:number, y:number, url:string)
+	}
+
+	class DesktopFactory extends AbstractFactory {
 
 		createText(x:number, y:number, text:string):ITextWidget {
 			return new DesktopTextWidget()
@@ -23,7 +28,7 @@ module AbstractFactory {
 
 	}
 
-	class MobileFactory implements IFactory {
+	class MobileFactory implements IAbstractFactory {
 
 		createText(x:number, y:number, text:string):ITextWidget {
 			return new MobileTextWidget()
@@ -69,7 +74,7 @@ module AbstractFactory {
 
 	//Client
 
-	let factory:IFactory
+	let factory:IAbstractFactory
 
 	function make() {
 		return new DesktopFactory()
