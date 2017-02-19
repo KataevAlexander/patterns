@@ -28,11 +28,11 @@
 * [Iterator, Cursor](/behavioral/iterator)
 * [Action, Command, Transaction](/behavioral/action)
 * [Observer, Publish/Subscribe, Delegation Event Model](/behavioral/observer)
+* [Visitor](/behavioral/visitor)
+* [State](/behavioral/state)
+* [Strategy](/behavioral/strategy)
+* [Chain of Responsibility](/behavioral/chainofresponsibility)
+* [Template Method](/behavioral/templatemethod)
 * Interpreter
-* Visitor
 * Mediator
-* State
-* Strategy
 * Memento
-* Chain of Responsibility
-* Template Method

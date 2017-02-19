@@ -21,7 +21,7 @@
 
 ## Диаграмма
 
-![Bridge](uml.png)
+![Observer](uml.png)
 
 ## Ссылки
 

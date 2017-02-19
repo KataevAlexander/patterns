@@ -1,0 +1,26 @@
+@startuml
+
+interface IAction {
+    # checkers[]
+
+    + check()
+    + execute()
+}
+
+abstract class Action implements IAction {
+    + check()
+    + abstract execute()
+}
+
+class ActionV1 extends Action
+class ActionV2 extends Action
+
+class ActionsStore {
+    - actions:IAction[]
+}
+
+ActionsStore o- IAction
+
+Client -> ActionsStore
+
+@enduml

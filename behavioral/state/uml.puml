@@ -1,0 +1,14 @@
+@startuml
+
+class Door {
+    - state:IState
+}
+
+interface IState
+
+class OpenedState implements IState
+class ClosedState implements IState
+
+Door o- IState
+
+@enduml

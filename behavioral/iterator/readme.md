@@ -23,7 +23,7 @@
     
 ## Диаграмма
 
-![Bridge](uml.png)
+![Iterator](uml.png)
 
 ## Ссылки
 

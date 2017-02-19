@@ -1,0 +1,17 @@
+@startuml
+
+interface IVisitor {
+    + visit(visitor:IAcceptor)
+}
+
+interface IAcceptor {
+    + accept(visitor:IVisitor)
+}
+
+class AcceptorV1 implements IAcceptor
+class AcceptorV2 implements IAcceptor
+
+class VisitorV1 implements IVisitor
+class VisitorV2 implements IVisitor
+
+@enduml
